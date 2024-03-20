@@ -1,0 +1,10 @@
+import math
+num = float(input("Digite um numero: "))
+resAbsolt = math.fabs(num)
+print("O valor absoluto é: ", resAbsolt)
+resInteiro =  int(math.floor(num))
+print ("o valor inteiro é:", resInteiro)
+resRaiz = math.sqrt(num)
+print("A raiz quadrada é: ", resRaiz)
+resFat = math.factorial(resInteiro)
+print("O valor fatorial de ", num, " é", resFat)
