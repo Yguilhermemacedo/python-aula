@@ -1,10 +1,14 @@
-r = 'S'
-nao = 0
-while r == 'S':
-    respN = input('Quer cagar? [S/N]: ')
-    if respN == 'S':
-        nao = nao + 1
-        r = str(input('Quer continuar? [S/N]: ')).upper()
-    elif r == 'N':
-        print(f'Voce negou {nao} vezes.')
-print('Fim')
+dividendo = int(input("Digite um numero (Base decimal) para ser convertido em Binário: "))
+numero_digitado = dividendo
+quociente = 1
+lista = []
+
+while quociente >= 1:
+  div = numero_digitado // 2
+  resto = numero_digitado % 2
+  lista.insert(0,resto)
+  quociente = dividendo // 2
+  dividendo = quociente
+
+binario = ''.join([str(item) for item in lista])
+print("O número",numero_digitado,", quando convertido em binário, vale:",binario)
