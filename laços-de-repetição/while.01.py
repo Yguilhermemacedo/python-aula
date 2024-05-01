@@ -13,3 +13,5 @@ if base_convertida == 1 and base == 1:
        dividendo = quociente
        binario = ''.join([str(item) for item in lista])
     print("O número", numero_digitado, " convertido em binário será:", binario)
+else:
+    print('Erro.')
