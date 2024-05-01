@@ -15,4 +15,4 @@ while resp.upper() == "S":
     else:
         print("Informação inválida.")
     #atualização da variável de controle
-        resp = input("Deseja continuar? (s/n)")
+        resp = input("Deseja continuar? (s/n): ")
