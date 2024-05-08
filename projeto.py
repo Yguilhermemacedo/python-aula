@@ -3,9 +3,14 @@ numero_decimal = int(input("Digite um número decimal: "))
 base = int(input("Digite a base em que você deseja converter\n 1 [BINÁRIO]\n 2 [OCTAL]\n 3 [HEXADECIMAL]\n Digite a base: "))
 print('=' *100)
 
+binario = ''
+octal = ''
+hexadecimal = ''
+
+
+        # Conversão de Decimal para Binário
 if base == 1:
-   def decimal_para_binario (numero_decimal):
-   dividendo = 
+   dividendo = numero_decimal
    quociente = 1
    digitos = []
    while quociente >= 1:
@@ -16,8 +21,7 @@ if base == 1:
       binario = "".join(str(digito) for digito in digitos)
 print(f'O número {numero_decimal} [DECIMAL] convertido em Binário será: {binario}')
 
-
-
+        # Conversão de Decimal para Octal
 elif base == 2:
     dividendo = numero_decimal
     quociente = 1
