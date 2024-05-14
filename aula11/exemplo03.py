@@ -11,11 +11,11 @@ while True:
 
 soma = sum(numeros)
 media = soma / len(numeros)
-print(f'A média dos números digitados é {media}')
+
 
 for numero in numeros:
     if numero > media:
         qtde = qtde + 1
 
-print(f'Media: {media}')
+print(f'Media: {media:.2f}')
 print(f'Acima da média: {qtde}')
