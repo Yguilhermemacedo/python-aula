@@ -21,3 +21,5 @@ print(n)
 
 #cont - retorna a quantidade de elementos de uma string
 print(nome.count("a"))
+
+print('Este é o seu nome sem nenhum espaço ',nome.strip())

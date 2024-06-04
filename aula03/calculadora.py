@@ -1,5 +1,6 @@
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
+for n in range(1):
+    n1 = int(input('Digite um número: '))
+    n2 = int(input('Digite outro número: '))
 
 soma = print('A soma será: ', (n1 + n2))
 multiplicação = print('A multiplicação será: ', (n1 * n2)) 

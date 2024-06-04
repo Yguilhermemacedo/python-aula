@@ -1,4 +1,4 @@
-for c in range(0, 101, 2):
+for c in range(0, 21, 2):
     print(c)
 
     
